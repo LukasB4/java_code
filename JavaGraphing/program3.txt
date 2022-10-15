@@ -1,0 +1,3 @@
+My dynamic program runs faster than my graph program. Both of my programs use a double for loop structure to iterate through the tree and compare elements. The extra time arises, in my opinion, in the additional methods in my graph program because they use for loops as well as while loops. So it is a third layer of looping underneath my two for loops. For < For < while. I believe this is O(n^3) or O(n^2log(n)). 
+
+I picked a directed graph data structure because I only ever needed to read in one direction. It also allowed for me to create multiple indices from individual points of divergence that all lead onward to the same end point. 
